@@ -110,9 +110,7 @@ export default {
                 }
             });
         },
-        clickHandle(msg, ev) {
-            // console.log("clickHandle:", msg, ev);
-        },
+       
         //添加商品
         addproduct(item) {
             carts.cart(this, item);
@@ -147,27 +145,7 @@ export default {
         });
         var that = this;
         console.log(window)
-        // wx.request({
-        //     url:
-        //         "http://m.beequick.cn/data/getCategoryProduct?asid=5b9f0f2c7d6f27584&_r=0.4702665855431476&reflogid=5b9f121b2eb0e4728&location_hash=454b19ArcTLEAcW%2BuscyR19Rk045aPIMPH2grh24L0KvVibPxsGCy0DNHKNEX%2FXFvQgTJAtNd9Xxx4NA8d4QW%2FJZIheTirTOMjhwLDvQlBWxg&zchtid=3937&bigids=524%2C0",
-        //     success: function(res) {
-        //         that.datas = res.data.data;
-        //         that.globalData.appOptions = res.data;
-        //         that.hidden = false;
-        //         console.log(that.globalData, that.hidden,res.data);
-        //         that.img = res.data.data.products["103821"][2].app_mimg;
-        //         that.data1 = res.data.data.products["103834"];
-        //         that.data = res.data.data.categories;
-        //         wx.hideLoading({});
-        //         for (let i = 0; i < that.data.length; i++) {
-        //             that.data[i]["names"] = that.data[i]["name"];
-        //             //   that.data[i]['pro']=res.data.data.products
-        //         }
-
-        //         // console.log(res.data.data.products);
-        //     },
-
-        // });
+       
         wx.request({
             url:
                 "http://m.beequick.cn/data/getCategoryProduct?asid=5b9b28f2d78df5406&_r=0.9496929448575357&reflogid=5bc1b1b0cd0e32450&location_hash=a5f06bprBBp3mAaQtsGpQGLezHYn3Y7cemKRVOIOyivMyawXLMnTBAcEssA3ES5p6z2qDdPLyhWJfO5hBoYwA&zchtid=3879&bigids=2%2C0",
