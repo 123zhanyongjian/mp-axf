@@ -1,6 +1,6 @@
 <template>
     <div>
-        <card :text="add" />
+        <card :text="add"/>
         <div>
 
         </div>
