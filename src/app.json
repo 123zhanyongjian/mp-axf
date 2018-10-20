@@ -1,0 +1,53 @@
+{
+  "pages": [
+   
+   "pages/index/main",
+ "pages/addAddress/main",
+   
+  "pages/Patchadd/main",
+  "pages/map/main",
+    "pages/Addaddrss/main",
+   
+   "pages/love/main",
+    "pages/user/main",
+    "pages/cartshop/main",
+    "pages/Mine/main",
+    "pages/Details/main"
+   
+    ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱鲜蜂",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#ff0000",
+    "list":[
+      {
+        "text":"首页",
+        "pagePath":"pages/index/main",
+        "iconPath":"static/image/Home1.png",
+        "selectedIconPath":"static/image/Home.png"
+      }, {
+        "text":"闪动超市",
+        "pagePath":"pages/cartshop/main",
+        "iconPath":"static/image/Cart1.png",
+        "selectedIconPath":"static/image/Cart.png"
+      }, {
+        "text":"购物车",
+        "pagePath":"pages/user/main",
+        "iconPath":"static/image/Cartshop.png",
+        "selectedIconPath":"static/image/Cartshop1.png"
+      }, {
+        "text":"我的",
+        "pagePath":"pages/Mine/main",
+        "iconPath":"static/image/Mine1.png",
+        "selectedIconPath":"static/image/Mine.png"
+      }
+    ]
+    
+  }
+}
